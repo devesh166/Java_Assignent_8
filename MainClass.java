@@ -11,6 +11,7 @@ public class MainClass {
 			e.printStackTrace();
 		} finally {
 			System.out.println("Final statement is always executed");
+			//Finally block always executed except in case of system exit
 		}
 
 	}
